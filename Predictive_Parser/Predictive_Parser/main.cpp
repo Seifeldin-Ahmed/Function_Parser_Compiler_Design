@@ -12,7 +12,7 @@ using namespace std;
 
 /*
 ===============================================  CFG ============================================= 
-     stmts            ----> stmts stms | E 
+     stmts            ----> stmts stmt | E 
      stmt             ----> while_stmt | if_stmt | assign_stmt | declaration_stmt
      declaration_stmt ----> declaration_keyword definition_stmt
      declaration_keyword--> int | char | float | double | short | long long
