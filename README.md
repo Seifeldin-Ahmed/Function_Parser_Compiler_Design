@@ -16,7 +16,7 @@ program.
 7. Remove comments:The program includes a function to remove comments from the code. This function identifies and removes both single-line and multi-line comments while preserving the functionality of the parser. 
 
 ## CFG 
-     stmts            ----> stmts stms | E 
+     stmts            ----> stmts stmt | E 
      stmt             ----> while_stmt | if_stmt | assign_stmt | declaration_stmt
      declaration_stmt ----> declaration_keyword definition_stmt
      declaration_keyword--> int | char | float | double | short | long long
