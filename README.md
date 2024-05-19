@@ -10,10 +10,10 @@ This project aims to implement a fully functional parser using C++ for a simple 
 program. 
 2. Accept multiple data types: The program is capable of handling various data types, such as integers, floats, long long, etc. 
 3. Parsing if and while statements: The program has specific support for if and while statements. The parser is designed to recognize and parse these control flow statements according to a given context-free grammar (CFG). 
-4. Tokenization: Before parsing, the input code needs to be tokenized. Tokenization involves breaking down the code into individual tokens, such as keywords, identifiers, operators, numbers, declaration keywords, punctuation, and errors.  
+4. Tokenization:Before parsing, the input code needs to be tokenized. Tokenization involves breaking down the code into individual tokens, such as keywords, identifiers, operators, numbers, declaration keywords, punctuation, and errors.  
 5. Generate a parse tree: After tokenization, the program follows a certain CFG to generate a parse tree. The parse tree represents the syntactic structure of the input code. 
-6. Visualization using Graphviz: The program provides a feature to visualize the generated parse tree using Graphviz. 
-7. Remove comments: The program includes a function to remove comments from the code. This function identifies and removes both single-line and multi-line comments while preserving the functionality of the parser. 
+6. Visualization using Graphviz:The program provides a feature to visualize the generated parse tree using Graphviz. 
+7. Remove comments:The program includes a function to remove comments from the code. This function identifies and removes both single-line and multi-line comments while preserving the functionality of the parser. 
 
 ## CFG 
      stmts            ----> stmts stms | E 
